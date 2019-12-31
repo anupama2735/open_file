@@ -248,6 +248,9 @@ public class OpenFilePlugin implements MethodCallHandler
             case "ogg":
                 return "audio/ogg";
             case "pdf":
+            case "gdoc":
+            case "gsheet":
+            case "gslides":
                 return "application/pdf";
             case "png":
                 return "image/png";
